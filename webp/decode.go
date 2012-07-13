@@ -14,7 +14,7 @@ import (
 	"image/color"
 	"io"
 
-	"code.google.com/p/vp8-go/vp8"
+	"github.com/gocos2d/vp8-webp-go/vp8"
 )
 
 func decode(r io.Reader) (d *vp8.Decoder, fh vp8.FrameHeader, err error) {
